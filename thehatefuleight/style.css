@@ -648,7 +648,8 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: block;
+	display: flex;
+	justify-content: center;
 	width: 100%;
 }
 
@@ -695,6 +696,9 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	display: block;
+    text-decoration: none;
+    margin: 0 2em;
 }
 
 /* Small menu. */
