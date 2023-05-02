@@ -648,8 +648,7 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: flex;
-	justify-content: center;
+	display: block;
 	width: 100%;
 }
 
@@ -696,9 +695,6 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	display: block;
-    text-decoration: none;
-    margin: 0 2em;
 }
 
 /* Small menu. */
@@ -970,4 +966,93 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+/* This is my own code */
+/* This is my own code */
+/* This is my own code */
+/* This is my own code */
+/* This is my own code */
+/* This is my own code */
+
+
+.page .entry-title{
+	display: none;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8bb3e4;
+}
+
+.nav-menu {
+	position: sticky;
+	border-style: solid;
+	display: flex;
+	align-items: center;
+	height: 80px;
+	margin-top: 50px;
+	border-bottom: 3px;
+	border-radius: 5px;
+	border-width: 5px;
+}
+
+.nav-menu a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 30px;
+	padding: 0 50px;
+	line-height: 1;
+	border-right: 1px solid black;
+	margin: 0; /* Add this line to reset the default margin */
+}
+
+.logoname{
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	height: 150px;
+	font-family: sans-serif;
+	border-style: solid;
+	border-bottom: 3px;
+	border-top: 3px;
+	border-radius: 5px;
+	border-width: 5px;
+}
+.logoname img {
+	margin-right: 10px;
+}
+
+.logoname h1 {
+	border-style: none;
+}
+.logoname p{
+	font-size: 10px;
+	display: block;
+	align-items: center;
+}
+
+.wp-container-4.wp-container-4 {
+	border-style: solid;
+	border-width: 5px;
+	border-top: 3px;
+	border-radius: 5px;
+}
+
+#committeeTable{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+#credo{
+	font-family: sans-serif;
+	text-align: center;
+	border-style: solid;
+	border-top: 3px;
+	border-bottom: 3px;
+	border-radius: 5px;
+	border-width: 5px;
 }
