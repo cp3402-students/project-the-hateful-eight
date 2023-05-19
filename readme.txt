@@ -14,7 +14,7 @@ A starter theme called TheHatefulEight.
 
 == Description ==
 
-Description
+A simple theme created from TheHatefulEight
 
 == Installation ==
 
