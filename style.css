@@ -60,6 +60,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+:root {
+  --sky-blue: #87CEEB;
+}
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -623,7 +627,10 @@ textarea {
 .main-navigation {
   display: block;
   width: 100%;
+  background: var(--sky-blue);
 }
+/* Icon to return home*/
+
 .main-navigation ul {
   display: none;
   list-style: none;
@@ -652,6 +659,7 @@ textarea {
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
+  background-color: var(--sky-blue);
 }
 .main-navigation li {
   position: relative;
@@ -659,6 +667,11 @@ textarea {
 .main-navigation a {
   display: block;
   text-decoration: none;
+  color: inherit;
+}
+
+.main-navigation a:hover {
+  color: gold;
 }
 /* Small menu. */
 .menu-toggle,
