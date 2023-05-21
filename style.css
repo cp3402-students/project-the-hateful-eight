@@ -626,15 +626,16 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
   display: block;
+  top: 0;
   width: 100%;
   background: var(--sky-blue);
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 }
-/* Icon to return home*/
 
 .main-navigation ul {
   display: none;
   list-style: none;
-  margin: 0;
+  margin: 2em auto 0;
   padding-left: 0;
 }
 .main-navigation ul ul {
@@ -656,8 +657,12 @@ textarea {
 .main-navigation ul ul a {
   width: 200px;
 }
+
+/*Drop down menu*/
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
+  display: block;
+  top: 0.25em;
   left: auto;
   background-color: var(--sky-blue);
 }
@@ -668,6 +673,7 @@ textarea {
   display: block;
   text-decoration: none;
   color: inherit;
+  text-align: center;
 }
 
 .main-navigation a:hover {
@@ -938,19 +944,18 @@ body {
   align-items: center;
   background-color: white;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 4em auto;
 }
 
 .nav-menu {
   position: sticky;
-  border-style: solid;
-  display: flex;
+  /*border-style: solid;*/
   align-items: center;
-  height: 80px;
+  height: 90px;
   margin-top: 50px;
-  border-bottom: 3px;
+  /*border-bottom: 3px;*/
   border-radius: 5px;
-  border-width: 5px;
+  /*border-width: 5px;*/
 }
 
 .nav-menu a {
@@ -961,7 +966,7 @@ body {
   font-size: 30px;
   padding: 0 50px;
   line-height: 1;
-  border-right: 1px solid black;
+  /*border-right: 1px solid black;*/
   margin: 0; /* Add this line to reset the default margin */
 }
 
