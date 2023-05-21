@@ -967,10 +967,10 @@ body {
   position: sticky;
   /*border-style: solid;*/
   align-items: center;
-  height: 90px;
+  height: 70px;
   margin-top: 50px;
   /*border-bottom: 3px;*/
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   /*border-width: 5px;*/
 }
 
