@@ -189,7 +189,14 @@ sup {
 img {
   border-style: none;
 }
-
+.home-image {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-bottom: 50px;*/
+}
 /* Forms
 	 ========================================================================== */
 /**
@@ -524,6 +531,7 @@ table {
 --------------------------------------------- */
 a {
   color: white;
+  text-decoration: none;
 }
 a:visited {
   color: gold;
@@ -973,7 +981,7 @@ body {
   margin: 0; /* Add this line to reset the default margin */
 }
 .container {
-  margin: 50px 50px;
+  margin: 10px 50px;
 }
 
 .about-links li {
@@ -981,11 +989,12 @@ body {
   text-decoration: none;
   margin-left: 3.5em;
   align-items: center;
+
 }
 .logoname {
   display: flex;
   align-items: center;
-  font-size: 30px;
+  font-size: 28px;
   height: 150px;
   font-family: sans-serif;
   /*border-style: solid;*/
