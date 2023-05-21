@@ -62,7 +62,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  */
 
 :root {
-  --sky-blue: #87CEEB;
+  --sky-blue: #00CCFF;
 }
 html {
   line-height: 1.15;
@@ -188,6 +188,12 @@ sup {
  */
 img {
   border-style: none;
+}
+
+.home-image {
+  width: 500px;
+  height: auto;
+  align-content: center;
 }
 
 /* Forms
@@ -672,7 +678,7 @@ textarea {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  color: inherit;
+  color: black;
   text-align: center;
 }
 
@@ -942,7 +948,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  color: white;
+  /*background-color: white;*/
+  /*background: linear-gradient(45deg, #2F3180, #1D1E4E, #108690);*/
+  background: linear-gradient(-180deg, #e75219, #ff6c00, #ff8b00, #354651, #FFF1A1);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
   max-width: 1200px;
   margin: 4em auto;
 }
@@ -976,11 +987,11 @@ body {
   font-size: 30px;
   height: 150px;
   font-family: sans-serif;
-  border-style: solid;
-  border-bottom: 3px;
-  border-top: 3px;
-  border-radius: 5px;
-  border-width: 5px;
+  /*border-style: solid;*/
+  /*border-bottom: 3px;*/
+  /*border-top: 3px;*/
+  /*border-radius: 5px;*/
+  /*border-width: 5px;*/
 }
 
 .logoname img {
@@ -1012,9 +1023,9 @@ body {
 #credo {
   font-family: sans-serif;
   text-align: center;
-  border-style: solid;
-  border-top: 3px;
-  border-bottom: 3px;
-  border-radius: 5px;
-  border-width: 5px;
+  /*border-style: solid;*/
+  /*border-top: 3px;*/
+  /*border-bottom: 3px;*/
+  /*border-radius: 5px;*/
+  /*border-width: 5px;*/
 }/*# sourceMappingURL=style.css.map */
